@@ -7,7 +7,9 @@ main {
     align-items: center;
     article {
 
+        border-top: 1px solid $special-color-1;
         max-width: 80ch;
+        padding-top: 2rem;
 
         h1 {
             text-align: center;
