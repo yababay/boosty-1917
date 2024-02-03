@@ -6,7 +6,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "deploy": "vite build && gh-pages -d build -t true",
-    "git": "read -p 'Суть коммита: ' COMMIT; git add .; git commit -am $COMMIT",
+    "git": "read -p 'Суть коммита: ' COMMIT; git add .; git commit -am $COMMIT; git push origin main",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"

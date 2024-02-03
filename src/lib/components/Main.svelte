@@ -16,9 +16,10 @@
 </script>
 
 <article>
-    {#if pathname !== home }
+    {#if !['/', '.'].includes(pathname)}
         <p class="text-end mt-3 mb-1" id="home"><a href="{home}" title="На главную"><i class="bi bi-house">&nbsp;На главную</i></a></p>
     {/if}
+
     {@html html}
 </article>    
 
