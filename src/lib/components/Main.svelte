@@ -12,7 +12,7 @@
     .replace(/ src=\"/g, ` src="${base}/`)
     .replaceAll(`${base}/http`, 'http')
     .replace(/\/\/\"/g, `/"`)
-    const home = `${base ? base : '/'}`
+    const home = `${base ? base : '/?123'}`
 </script>
 
 <article>

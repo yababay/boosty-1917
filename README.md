@@ -6,3 +6,4 @@
 # Содержание
 
 * [Непредсказуемое прошлое Владимира Владимировича](articles/nepredskazuemoe-proshloe-vv)
+* [«Чтобы пузом на врага лечь...»](articles/puzom-na-vraga)
