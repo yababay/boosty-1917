@@ -5,4 +5,4 @@
 
 # Содержание
 
-* [Непредсказуемое прошлое Владимира Владимировича](/articles/nepredskazuemoe-proshloe-vv)
+* [Непредсказуемое прошлое Владимира Владимировича](articles/nepredskazuemoe-proshloe-vv)
