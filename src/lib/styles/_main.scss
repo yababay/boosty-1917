@@ -1,0 +1,43 @@
+@import "settings";
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    article {
+
+        max-width: 80ch;
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        img {
+            max-width: calc(80ch - 2rem);
+            margin: 1rem auto;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: $link-color;
+        }
+
+        blockquote {
+            border-left: .3rem solid silver;
+            padding-left: 1.5rem;
+            p {
+                white-space: pre-wrap;
+                font-style: italic;
+                text-indent: .5rem;
+            }
+        }
+
+        code {
+            color: white;
+        }
+    }
+}

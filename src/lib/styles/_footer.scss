@@ -1,0 +1,13 @@
+@import "settings";
+
+$footer-border-height: 1px;
+$footer-pure-height: calc($footer-height - $footer-border-height);
+
+footer {
+    height: $footer-pure-height;
+    line-height: $footer-pure-height;
+    text-align: center;
+    font-size: smaller;
+    width: 100%;
+    border-top: $footer-border-height solid $special-color-1;
+}
