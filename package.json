@@ -7,6 +7,7 @@
     "build": "vite build",
     "deploy": "vite build && gh-pages -d build -t true",
     "git": "read -p 'Суть коммита: ' COMMIT; git add .; git commit -am $COMMIT; git push origin main",
+    "edit": "read -p 'Имя файла: ' MD; FN=`pwd`/src/articles/$MD.md; touch $FN; /usr/bin/abricotine $FN",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
